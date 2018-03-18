@@ -2,7 +2,10 @@ channels:
   - conda-forge
   - defaults
 dependencies:
+  - pandas
+  - numpy
   - jupyter
   - plotly
+  - colorlover
   - pip:
     - cufflinks
